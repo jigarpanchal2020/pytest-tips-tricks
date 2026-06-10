@@ -1,3 +1,5 @@
+[![Test Multiple Python Versions](https://github.com/jigarpanchal2020/pytest-tips-tricks/actions/workflows/testing-ci.yml/badge.svg)](https://github.com/jigarpanchal2020/pytest-tips-tricks/actions/workflows/testing-ci.yml)
+
 [![Python application test with Github Actions](https://github.com/noahgift/pytest-tips-tricks/actions/workflows/testing-ci.yml/badge.svg)](https://github.com/noahgift/pytest-tips-tricks/actions/workflows/testing-ci.yml)
 [![AWS](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoibm1YdHFvMzVaQ0hrQS9oRlFGUVhoVy9wWmNHNmQyMGRkTWwwaE9ocEU5TFRRYXJmQWtwaVc1NkxSbGcrOTBLM0RJN0VFS09jSWFoQWxIQUpGUHdYbFkwPSIsIml2UGFyYW1ldGVyU3BlYyI6IlFXcDJNdWhqV3VYL3M1d2oiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
