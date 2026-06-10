@@ -3,17 +3,17 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=hello --cov=greeting test1
+	python -m pytest -vv --cov=hello --cov=greeting test1 --pdb
 
 debug:
-	python -m pytest -vv --pdb	#Debugger is invoked
+	python -m pytest -vv test1 --pdb	#Debugger is invoked
 
 one-test:
-	python -m pytest -vv tests/test_greeting.py::test_my_name4
+	python -m pytest -vv test1/test_greetings1.py::test_my_name4
 
 debugthree:
 	#not working the way I expect
-	python -m pytest -vv --pdb --maxfail=4  # drop to PDB for first three failures
+	python -m pytest -vv test1 --pdb --maxfail=4  # drop to PDB for first three failures
 
 format:
 	black *.py
